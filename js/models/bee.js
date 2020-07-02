@@ -9,8 +9,16 @@ class Bee{
         this.address = address;
         this.company = company;
         this.posts = [];
+        this.albums = [];
+        this.todos = [];
     }
     addPost(post){
         this.posts.push(post);
+    }
+    addAlbum(album){
+        this.albums.push(album);
+    }
+    addTodo(todo){
+        this.todos.push(todo);
     }
 }
