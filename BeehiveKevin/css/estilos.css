@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.appComp{
+    background: #373737;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+.loadComp{
+    background: #cfcfcf;
+    height: 90vh;
+    width: 100vw;
+}
+.headerComp{
+    background: #9e9e9e;
+    height: 10vh;
+
+    width: 100vw;
+}
+.beesComp{
+    background: #cfcfcf;
+    border: none;
+    margin-bottom: 2vh;
+    height: 90vh;
+    overflow: scroll;
+    width: 24vw;
+}
+.postsComp{
+    background: #cfcfcf;
+    border: none;
+    margin-bottom: 2vh;
+    height: 90vh;
+    overflow: scroll;
+    width: 24vw;
+}
+.albumsComp{
+    background: #cfcfcf;
+    border: none;
+    margin-bottom: 2vh;
+    height: 90vh;
+    width: 24vw;
+}
+.todosComp{
+    background: #cfcfcf;
+    border: none;
+    margin-bottom: 2vh;
+    height: 90vh;
+    width: 24vw;
+}
+.beeComp{
+    background: #fffffb;
+    height: 20vh;
+    margin: 1vh;
+}
+.beesComp :hover{
+    margin: 1.5vh;
+}
+.beeName{
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+}
+.postComp{
+    background: #fffffb;
+    min-height: 20vh;
+    margin: 1vh;
+}
+.postTitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+.postBody{
+    font-size: 12px;
+    font-weight: 500;
+}
+.commentComp{
+    background: #fffffb;
+    border: 1px solid #000000;
+    min-height: 5vh;
+    margin: 1vh;
+}
+.commentName{
+    font-size: 12px;
+    font-weight: bold;
+}
+.commentBody{
+    font-size: 10px;
+    font-weight: 500;
+}
+@media (max-width: 800px){
+    .beesComp{
+        width: 48vw;
+    }
+    .postsComp{
+        width: 48vw;
+    }
+    .albumsComp{
+        width: 48vw;
+        display: none;
+    }
+    .todosComp{
+        width: 48vw;
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .beesComp{
+        width: 100vw;
+    }
+    .postsComp{
+        width: 100vw;
+        display: none;
+    }
+    .albumsComp{
+        width: 100vw;
+        display: none;
+    }
+    .todosComp{
+        width: 100vw;
+        display: none;
+    }
+}
